@@ -10,7 +10,7 @@ function duplicateCount(text){
   // exit loop
   // int count
   // loop through int array, if current int>1, increment count.
-  // return count
+  // return count 
   let str = text.toLowerCase();
   let charArr = [];
   let intArr = [];

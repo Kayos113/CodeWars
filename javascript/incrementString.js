@@ -1,7 +1,6 @@
 function incrementString (strng) {
   let index = strng.length;
-  while(!isNaN(parseInt(strng.substring(index-1)))) {
-    console.log(parseInt(strng.substring(index-1)));
+  while(!isNaN(parseInt(strng.substring(index-1))) && index>0 ) {
     index--;
   }
   let subString = strng.substring(0,index);

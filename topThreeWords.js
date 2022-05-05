@@ -4,6 +4,5 @@ function topThreeWords(text) {
   newText.map( char => {if(!charArr.includes(char)) charArr.push(char)});
   let countArr = [];
   charArr.forEach( char => countArr.push( newText.filter( i => i==char ).length ) );
-  console.log(charArr);
-  console.log(countArr);
+  //at this point there is now two arrays, one of each word that appears, and the other the count of the times that word appears, with mathing indecies
 }

@@ -1,6 +1,6 @@
 function createPhoneNumber(numbers){
   if(numbers.length!=10) {
-    return "INVALID ARRAY FORMAT"
+    return "INVALID ARRAY FORMAT. TRY AGAIN."
   }
   let returnString = "(";
   for(let i=0; i<numbers.length; i++) {

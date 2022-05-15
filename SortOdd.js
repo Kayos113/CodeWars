@@ -25,4 +25,4 @@ function sortArray(array) {
     }
   });
   return newArr;
-} 
+}

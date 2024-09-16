@@ -1,0 +1,35 @@
+:root {
+  --scale-factor: 2;
+}
+
+html {
+
+}
+
+.body {
+
+}
+
+.john-wick {
+  height: calc(64px * var(--scale-factor));
+  width: calc(64px * var(--scale-factor));
+  background: url("./images/johnwick-run.png");
+  background-size: cover;
+  animation-name: walking-sprite;
+  animation-duration: .4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(3);
+}
+
+.left {
+  width: calc(64px * var(--scale-factor));
+}
+
+@keyframes walking-sprite {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: calc(-64px * 3 * var(--scale-factor));
+  }
+}
